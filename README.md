@@ -74,6 +74,7 @@ $ deluge-web --fork					#start deluge-web in background
 }
 ```
 **YOU SHOULD CHANGE THE NAME setting_example.json FILE TO setting.json**
+
 **token** is your bot token which you got when you make a new bot using *@Botfather*
 
 **vaild_users** should be filled in 8 digit number which every telegram user have.
