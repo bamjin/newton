@@ -68,6 +68,8 @@ $ deluge-web --fork					#start deluge-web in background
       12345678
     ],
     "agent_type": "deluge"
+	"naver_id": "Your Naver ID"
+	"naver_pw": "Your Naver PW"
   }
 }
 ```
@@ -79,9 +81,9 @@ You can check your 8 digit number through telegram bot named *@my_bot_id*
 
 ## Run
 ```bash
-$ python3 telegram_torrent.py
+$ python3 newton.py
 
 or
 
-$ python telegram_torrent.py 		# if you use pyenv
+$ python newton.py 		# if you use pyenv
 ```
