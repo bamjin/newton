@@ -95,3 +95,6 @@ ENV/
 
 # Setting
 setting.json
+
+# nohup
+nohup.out
