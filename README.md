@@ -67,9 +67,9 @@ $ deluge-web --fork					#start deluge-web in background
     "valid_users": [
       12345678
     ],
-    "agent_type": "deluge"
-	"naver_id": "Your Naver ID"
-	"naver_pw": "Your Naver PW"
+    "agent_type": "deluge",
+    "naver_id": "Your Naver ID",
+    "naver_pw": "Your Naver PW"
   }
 }
 ```
