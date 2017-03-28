@@ -203,8 +203,8 @@ class Torrenter(telepot.helper.ChatHandler):
 		browser.open(base_url)
 		form = browser.get_form(action='https://nid.naver.com/nidlogin.login')
 
-		form["id"] = 'NAVER ID'
-		form["pw"] = 'NAVER PW'
+		form["id"] = NAVER_ID
+		form["pw"] = NAVER_PW
 		browser.session.headers['Referer'] = base_url
 		browser.submit_form(form)
 
@@ -293,10 +293,13 @@ def getConfig(config):
 	global TOKEN
 	global AGENT_TYPE
 	global VALID_USERS
+	global NAVER_ID
+	global NAVER_PW
 	TOKEN = config['common']['token']
 	AGENT_TYPE = config['common']['agent_type']
 	VALID_USERS = config['common']['valid_users']
-
+	NAVER_ID = config['common']['naver_id']
+	NAVER_PW = config['common']['naver_pw']
 
 
 config = parseConfig(CONFIG_FILE)
