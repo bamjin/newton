@@ -1,4 +1,5 @@
 #!/usr/bin/python3.5
+# -*- coding: utf-8 -*-
 
 import sys
 import os
@@ -105,8 +106,8 @@ class Torrenter(telepot.helper.ChatHandler):
 	MENU2 = '지금 너 뭐 받고있어?'
 	MENU10 = '중고나라 시세'
 	MENU10_1 = '검색'
-	rssUrl = """https://torrentkim3.net/bbs/rss.php?k="""
-	GREETING = "무엇을 도와 드릴까요?."
+	rssUrl = """https://torrentkim10.net/bbs/rss.php?k="""
+	GREETING = "무엇을 도와 드릴까요?"
 
 	global scheduler
 	SubtitlesLocation = ''  # Option: Input your subtitle location to save subtitle files,
